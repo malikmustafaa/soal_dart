@@ -76,11 +76,9 @@ void main(List<String> args) {
 
 // jawab disini
   List arr = [12, 14, 15, 18, 29];
-  print(arr[0]);
-  print(arr[1]);
-  print(arr[2]);
-  print(arr[3]);
-  print(arr[4]);
+  for (int i = 0; i < arr.length; i++) {
+    print(arr[i]);
+  }
 
   /*
   Soal 5 - Looping with condition
